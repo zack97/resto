@@ -1,0 +1,228 @@
+/* Styles for the entire body */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    height: 100vh;
+}
+/* Styles for the header section */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.accueil{
+    background-color:rgb(255, 162, 47);
+}
+.div0 h1{
+    color:rgb(255, 162, 47);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    padding:0px 5px;
+    padding: 20px 10px;
+}
+
+
+/* End of Header Styles */
+
+
+
+/* Styles for navigation links */
+input{
+    outline: none;
+}
+
+/* Styles for the event section */
+.section_event{
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styles for the event image */
+.event-img{
+    background-image: url(https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    height: 200px;
+}
+/* Styles for event input */
+.event-input{
+    justify-content: center;
+    margin: 20px 0px;
+    align-items: center;
+}
+
+.event-input ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.event-input ul li input,button,h1{
+    width: 200px;
+    padding: 10px;
+}
+
+.event-input ul li button{
+    cursor: pointer;
+}
+
+
+
+
+/* Styles for the main table section */
+.table-principale{
+    display: flex;
+    align-items: center;
+    box-shadow:  0px 1px 2px black;
+}
+
+.table-principale form{
+    background-color:rgb(255, 162, 47);
+    text-align: left;
+    width: 200px;
+    padding: 20px;
+}
+
+/* Styles for the form section */
+.form{
+    background-color: black;
+    margin:20px;
+}
+.form input{
+    margin:5px 0px;
+}
+
+.form h1{
+    color: white;
+}
+/* Styles for the submit button on hover */
+form button{
+    cursor: pointer;
+    padding: 0;
+    width: 89px;
+}
+
+
+/* Styles for the timetable table */
+.table{
+    width: 550px;
+    margin-right: 20px;
+}
+/* Styles for additional event details */
+.table-p{
+    width: auto;
+    text-align: left;
+}
+
+/* Styles for the table elements */
+table, th, td{
+   padding: 20px;
+}
+/* Styles for table headers */
+th{
+   border: 1px solid white;
+   border-collapse: collapse;
+   background-color: black;
+   color: white;
+}
+
+td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-color:rgb(255, 162, 47);
+    color: white;
+}
+/* Styles for table data cells on hover */
+td:hover{
+   opacity: 0.9;
+   cursor: pointer;
+}
+/* Additional table styles */
+table{
+    text-align: left;
+}
+
+
+
+/* Styles for the footer section */
+footer{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.div4{
+    display: block;
+    width: 400px;
+    padding: 50px;
+    color: white;
+}
+.div4 h2{
+    color:rgb(255, 162, 47);
+    margin-bottom: 10px;
+}
+.div5{
+    padding: 50px;
+    margin-left: 300px;
+    color: white;
+}
+.div5 a{
+   text-decoration: none;
+   color: white;
+}
+.div5 h2{
+   margin-bottom: 10px;
+ }
+
+
+.footer-down{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-down ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.footer-down ul li{
+    margin: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.footer-down ul li:hover{
+    background-color: rgb(255, 162, 47);
+    color: red;
+}

@@ -1,0 +1,195 @@
+/* Styles for the entire body */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    height: 100vh;
+}
+/* Styles for the header section */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.accueil{
+    background-color:rgb(255, 162, 47);
+}
+.div0 h1{
+    color:rgb(255, 162, 47);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    padding:0px 5px;
+    padding: 20px 10px;
+}
+
+
+/* End of Header Styles */
+ 
+/*DEBUT SECTON 8*/
+.section8{
+    height: 400px;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+ 
+.section8-div{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(255, 162, 47);
+}
+ 
+.section8-div img{
+    width: 400px;
+    height: 300px;
+}
+ 
+/*FIN SECTON 8*/
+ 
+ 
+/*DEBUT SECTION FORMULAIRE*/
+ 
+.formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.formulaire form{
+    background-color: rgb(255, 162, 47);
+    width: 300px;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 1px 2px 5px black;
+    margin: 10px;
+}
+ 
+
+/*FIN SECTION FORMULAIRE*/
+ 
+/*DEBUT IMAGES AU DESSUS DU TABLEAU*/
+ 
+.autresImages{
+    position: absolute;
+    left: 600px;
+    top: 775px;
+}
+ 
+/*FIN IMAGES AU DESSUS DU TABLEAU*/
+ 
+/*DEBUT SECTION TABLEAU*/
+ 
+.table{
+    height: auto;
+    margin: 40px;
+}
+ 
+table td{
+    text-align: left;
+    background-color:  rgb(255, 162, 47);
+    color: black;
+    width: 500px;
+}
+ 
+table th{
+    background-color:  black;
+    color: white;
+}
+ 
+ 
+table,th,td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    padding: 20px;
+}
+/*FIN SECTION TABLEAU*/
+ 
+ 
+ 
+ 
+ 
+ 
+/* Styles for the footer section */
+footer{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.div4{
+    display: block;
+    width: 400px;
+    padding: 50px;
+    color: white;
+}
+.div4 h2{
+    color:rgb(255, 162, 47);
+    margin-bottom: 10px;
+}
+.div5{
+    padding: 50px;
+    margin-left: 300px;
+    color: white;
+}
+.div5 a{
+   text-decoration: none;
+   color: white;
+}
+.div5 h2{
+   margin-bottom: 10px;
+ }
+
+
+.footer-down{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-down ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.footer-down ul li{
+    margin: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.footer-down ul li:hover{
+    background-color: rgb(255, 162, 47);
+    color: red;
+}

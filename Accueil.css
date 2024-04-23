@@ -1,0 +1,170 @@
+/* Styles for the entire body */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    height: 100vh;
+}
+/* Styles for the header section */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.accueil{
+    background-color:rgb(255, 162, 47);
+}
+.div0 h1{
+    color:rgb(255, 162, 47);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    padding:0px 5px;
+    padding: 20px 10px;
+}
+
+
+/* End of Header Styles */
+
+
+/* Styles for the main section */
+
+section{
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    background-color:rgb(252, 180, 92);
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.img-acceuil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 10px rgb(245, 137, 6);
+
+}
+
+
+.input-btn{
+    display: flex;
+    box-shadow: 1px 5px 10px rgb(245, 137, 6);
+    width: 550px;
+}
+
+.input-btn input{
+   padding: 20px;
+   outline: none;
+}
+
+.input-btn button{
+    padding: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+.input-btn button:hover{
+    background-color:rgb(255, 162, 47);
+    color: white;
+    border: 1px solid white;
+    
+}
+
+
+.commander{
+    margin: 20px;
+    flex: 1;
+}
+
+.commander h1{
+    margin-bottom: 10px;
+}
+
+/* End of Section Styles */
+
+
+/* Styles for the footer section */
+footer{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.div4{
+    display: block;
+    width: 400px;
+    padding: 50px;
+    color: white;
+}
+.div4 h2{
+    color:rgb(255, 162, 47);
+    margin-bottom: 10px;
+}
+.div5{
+    padding: 50px;
+    margin-left: 300px;
+    color: white;
+}
+.div5 a{
+   text-decoration: none;
+   color: white;
+}
+.div5 h2{
+   margin-bottom: 10px;
+ }
+
+
+.footer-down{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-down ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.footer-down ul li{
+    margin: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.footer-down ul li:hover{
+    background-color: rgb(255, 162, 47);
+    color: red;
+}
+

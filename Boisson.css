@@ -1,0 +1,385 @@
+/* Styles for the entire body */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: auto;
+    height: 100vh;
+}
+/* Styles for the header section */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+.accueil{
+    background-color:rgb(255, 162, 47);
+}
+.div0 h1{
+    color:rgb(255, 162, 47);
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li{
+    padding:0px 5px;
+    padding: 20px 10px;
+}
+
+
+/* End of Header Styles */
+
+
+/* Styles for the main section */
+
+section{
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    background-color:rgb(252, 180, 92);
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.img-acceuil img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 10px rgb(245, 137, 6);
+
+}
+
+
+.input-btn{
+    display: flex;
+    box-shadow: 1px 5px 10px rgb(245, 137, 6);
+    width: 550px;
+}
+
+.input-btn input{
+   padding: 20px;
+   outline: none;
+}
+
+.input-btn button{
+    padding: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+.input-btn button:hover{
+    background-color:rgb(255, 162, 47);
+    color: white;
+    border: 1px solid white;
+    
+}
+
+
+.commander{
+    margin: 20px;
+    flex: 1;
+}
+
+.commander h1{
+    margin-bottom: 10px;
+}
+
+/* End of Section Styles */
+
+
+
+/* Styles for the main section */
+
+section{
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    background-color:rgb(252, 180, 92);
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-acceuil img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 10px rgb(245, 137, 6);
+
+}
+.img-acceuil{
+    margin: 20px;
+}
+
+.input-btn{
+    display: flex;
+    box-shadow: 1px 5px 10px rgb(245, 137, 6);
+}
+
+.input-btn input{
+   padding: 20px;
+}
+
+.input-btn button{
+    padding: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+.input-btn button:hover{
+    background-color:rgb(255, 162, 47);
+    color: white;
+    border: 1px solid white;
+    
+}
+
+
+.commander{
+    margin: 20px;
+}
+/* End of Header Styles */
+
+
+/* Styles for the main section */
+
+section{
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    background-color:rgb(252, 180, 92);
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-acceuil img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 10px rgb(245, 137, 6);
+
+}
+.img-acceuil{
+    margin: 20px;
+}
+
+.input-btn{
+    display: flex;
+    box-shadow: 1px 5px 10px rgb(245, 137, 6);
+}
+
+.input-btn input{
+   padding: 20px;
+}
+
+.input-btn button{
+    padding: 20px;
+    width: 150px;
+    cursor: pointer;
+}
+.input-btn button:hover{
+    background-color:rgb(255, 162, 47);
+    color: white;
+    border: 1px solid white;
+    
+}
+
+
+.commander{
+    margin: 20px;
+}
+ 
+ 
+ 
+h2 {
+    color: rgb(255, 162, 47);
+}
+ 
+table {
+    background-color: rgb(255, 162, 47);
+}
+ 
+
+
+ 
+/* CSS IMAGE */
+
+.section-image{
+    padding: 50px;
+    
+}
+
+#boissons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+ 
+.boisson {
+    background-color: black;
+    margin: 5px;
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    margin: 0 10px;
+    margin-bottom: 30px;
+    border: 5px outset rgb(255, 162, 47);
+    box-shadow: 1px 3px 5px black;
+    border-radius: 5px;
+
+}
+ 
+.boisson img {  
+    width: 200px;
+    height: 200px;
+    border: 1px solid  rgb(255, 162, 47);
+    box-shadow: 1px 1px 5px white;
+    cursor: pointer;
+}
+
+.boisson img:hover{  
+    opacity: 0.8;
+}
+
+ 
+.boisson h2 {
+    color: white;
+    margin-top: 10px;
+}
+ 
+.boisson p {
+    color: #FFFF;
+}
+ 
+.drinks h2 {
+    text-align: center;
+}
+ 
+.drinks h3 {
+    color: rgb(255, 162, 47);
+    margin-top: 10px;
+}
+.boisson2 {
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+}
+.boisson2 p {
+    color: gray;
+}
+ 
+ 
+h1 {
+    text-align: center;
+    margin: 0%;
+}
+.boisson2 img{
+    width: 300px;
+    height: 300px;
+    border-radius: 8px;
+    margin: 15px;
+    cursor: pointer;
+}
+ 
+.boisson2 img:hover{
+    opacity: 0.8;
+}
+ 
+.texte-center{
+    padding-top: 25px;
+}
+
+
+.boisson2 div{
+    text-align: center;
+}
+
+
+/* Styles for the footer section */
+footer{
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+
+.section2{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.div4{
+    display: block;
+    width: 400px;
+    padding: 50px;
+    color: white;
+}
+.div4 h2{
+    color:rgb(255, 162, 47);
+    margin-bottom: 10px;
+}
+.div5{
+    padding: 50px;
+    margin-left: 300px;
+    color: white;
+}
+.div5 a{
+   text-decoration: none;
+   color: white;
+}
+.div5 h2{
+   margin-bottom: 10px;
+ }
+
+
+.footer-down{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-down ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.footer-down ul li{
+    margin: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.footer-down ul li:hover{
+    background-color: rgb(255, 162, 47);
+    color: red;
+}
+
